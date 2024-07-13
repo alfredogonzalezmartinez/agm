@@ -1,0 +1,10 @@
+{
+	"name": "agm-projects",
+	"version": "0.0.0",
+	"private": true,
+	"type": "module",
+	"scripts": {},
+	"devDependencies": {
+		"@biomejs/biome": "1.8.3"
+	}
+}

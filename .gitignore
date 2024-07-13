@@ -1,0 +1,17 @@
+# OS
+.DS_Store
+
+# DEPEDENCIES
+node_modules
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+bun.lockb
+
+# TEST
+coverage
+
+# ENV FILES
+.env
+.env.*
+!.env.example
