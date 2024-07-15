@@ -8,6 +8,7 @@
 		"lint-staged": "lint-staged",
 		"prepare": "husky"
 	},
+	"workspaces": ["packages/*"],
 	"devDependencies": {
 		"@biomejs/biome": "1.8.3",
 		"husky": "9.0.11",
