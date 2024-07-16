@@ -1,0 +1,8 @@
+{
+	"name": "@agm/criteria",
+	"version": "0.0.0",
+	"description": "Criteria's modeling classes",
+	"scripts": {
+		"test": "vitest"
+	}
+}
