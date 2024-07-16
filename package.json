@@ -6,13 +6,15 @@
 	"scripts": {
 		"lint": "biome check --write .",
 		"lint-staged": "lint-staged",
+		"test": "vitest",
 		"prepare": "husky"
 	},
 	"workspaces": ["packages/*"],
 	"devDependencies": {
 		"@biomejs/biome": "1.8.3",
 		"husky": "9.0.11",
-		"lint-staged": "15.2.7"
+		"lint-staged": "15.2.7",
+		"vitest": "2.0.3"
 	},
 	"lint-staged": {
 		"*": "biome check --apply --no-errors-on-unmatched --files-ignore-unknown=true"
