@@ -1,7 +1,7 @@
 import { CriteriaError } from "../../src/CriteriaError";
 
 export class CriteriaErrorMother {
-	static withMessage(message: string): CriteriaError {
-		return new CriteriaError(message);
+	static invalidOrderType(value: unknown): CriteriaError {
+		return new CriteriaError(`Invalid order type: ${value}`);
 	}
 }
