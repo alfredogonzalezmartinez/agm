@@ -8,5 +8,17 @@
 		"rules": {
 			"recommended": true
 		}
-	}
+	},
+	"overrides": [
+		{
+			"include": ["*/**/*Mother.ts"],
+			"linter": {
+				"rules": {
+					"complexity": {
+						"noStaticOnlyClass": "off"
+					}
+				}
+			}
+		}
+	]
 }
