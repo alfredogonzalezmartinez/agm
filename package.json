@@ -4,7 +4,9 @@
 	"private": true,
 	"type": "module",
 	"scripts": {
-		"lint": "biome check --write .",
+		"lint": "npm run lint:js && npm run lint:md",
+		"lint:js": "biome check --write .",
+		"lint:md": "markdownlint-cli2 **/*.md",
 		"lint-staged": "lint-staged",
 		"test": "vitest",
 		"prepare": "husky"
@@ -14,10 +16,12 @@
 		"@biomejs/biome": "1.8.3",
 		"husky": "9.0.11",
 		"lint-staged": "15.2.7",
+		"markdownlint-cli2": "0.13.0",
 		"typescript": "5.5.3",
 		"vitest": "2.0.3"
 	},
 	"lint-staged": {
-		"*": "biome check --apply --no-errors-on-unmatched --files-ignore-unknown=true"
+		"*": "biome check --apply --no-errors-on-unmatched --files-ignore-unknown=true",
+		"*.md": "markdownlint-cli2"
 	}
 }
