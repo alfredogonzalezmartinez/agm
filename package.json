@@ -9,6 +9,7 @@
 		"lint:md": "markdownlint-cli2 **/*.md",
 		"lint-staged": "lint-staged",
 		"test": "vitest",
+		"publish": "npm publish --access public --workspace",
 		"prepare": "husky"
 	},
 	"workspaces": ["packages/*"],
