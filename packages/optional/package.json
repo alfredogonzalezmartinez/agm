@@ -1,0 +1,15 @@
+{
+	"name": "@alfredogm/optional",
+	"version": "0.0.3",
+	"description": "Un object wrapper for working with values that may be absent.",
+	"homepage": "https://github.com/alfredogonzalezmartinez/alfredogm/tree/main/packages/optional#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/alfredogonzalezmartinez/alfredogm.git",
+		"directory": "packages/optional"
+	},
+	"type": "module",
+	"scripts": {
+		"test": "vitest"
+	}
+}
