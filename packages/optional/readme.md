@@ -2,7 +2,7 @@
 
 Language: English | [Español](readme.es.md)
 
-Un object wrapper for working with values that may be absent (`null` or `undefined`).
+An object wrapper for working with values that may be absent (`null` or `undefined`).
 
 - [Install](#install)
 - [Usage](#usage)
