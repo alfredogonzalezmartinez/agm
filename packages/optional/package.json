@@ -9,6 +9,8 @@
 		"directory": "packages/optional"
 	},
 	"type": "module",
+	"main": "index.js",
+	"types": "index.d.ts",
 	"scripts": {
 		"test": "vitest"
 	}
